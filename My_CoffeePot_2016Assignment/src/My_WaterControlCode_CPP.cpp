@@ -19,24 +19,21 @@ void My_WaterControlCode_CPP(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned s
 	User friendly feature note. Turn on one of the coffeepot LEDs to signify that the 
 	WATER power has been turned on.*/
 
-//	Smith_WaterContolCode(coffeePot_BaseAddress, waterLevelRequired);
-
 	//Enable water power -- show with LED
 	coffeePot_BaseAddress->controlRegister |= WATER_ENABLE_BIT;
-	My_SimulateOneSecondPassing_CPP();
 	coffeePot_BaseAddress->controlRegister |= (USE_LED3_TO_SHOW_WATER_ENABLED);
 	My_SimulateOneSecondPassing_CPP();
 
-	unsigned int waterLevel = CurrentWaterLevel_CPP(coffeePot_BaseAddress);
+	unsigned int waterLevelmL = CurrentWaterLevel_CPP(coffeePot_BaseAddress);
 
-		while (waterLevel < waterLevelRequired) {
-			coffeePot_BaseAddress->waterInFlowRegister = FIFTY_ML;
-			My_SimulateOneSecondPassing_CPP();
-			waterLevel = CurrentWaterLevel_CPP(coffeePot_BaseAddress);
-		}
-
+	while (waterLevelmL < waterLevelRequired) {
+		coffeePot_BaseAddress->waterInFlowRegister = FIFTY_ML;		//Set water level flow rate
+		My_SimulateOneSecondPassing_CPP();
+		waterLevelmL = CurrentWaterLevel_CPP(coffeePot_BaseAddress);
+	}
 }
 
+// Given default code
 void Smith_WaterContolCode(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned short int waterLevelRequired) {
 	unsigned int waterLevel = CurrentWaterLevel_CPP(coffeePot_BaseAddress);
 

@@ -9,22 +9,18 @@
 #include <MockDevices2016\CoffeePot_SimulatorFunctions2016.h>
 #include "MyCoffeePotFunctions_forCPP.h"	//NOTE: LEAVE IN UNLESS MAIN.H INCLUDES
 
-#define DO_SECOND_POT					0
+#define DO_FIRST_POT					0
+#define DO_SECOND_POT					1
 #define CONTROL_TWO_POTS_AT_ONE_TIME	0
-#define VOLUME_COFFEEPOT_ONE_ML			484
-#define VOLUME_COFFEEPOT_TWO_ML			320
+#define VOLUME_COFFEEPOT_ONE_ML			490
+#define VOLUME_COFFEEPOT_TWO_ML			310
 #define PERCENT_NINETY					0.9
 
 void NetworkTimingFudge_USE_CCES_GUI_Delay(void) {/*FUNCTION STUB*/}
 
-/** 
- * If you want to use command program arguments, then place them in the following string. 
- */
-/*char __argv_string[] = "";*/
 
 int main(int argc, char *argv[])
 {
-	/* Begin adding your custom code here */
 
 	int numCoffeePots = 2; 									// 4 by end of assignment
 
@@ -34,9 +30,10 @@ int main(int argc, char *argv[])
 //	WHICHDISPLAY whichDisplay = (WHICHDISPLAY) (USE_TEXT_GUI | USE_SPI_GUI);
 	Init_CoffeePotSimulation(numCoffeePots, whichDisplay);
 	
-	char uniqueCoffeePotName1[] = "Naveed";
+	char uniqueCoffeePotName1[] = "Naveed";					// String determines coffeepot volume
 	char uniqueCoffeePotName2[] = "Kawsar";
 
+#if DO_FIRST_POT
 	// Simulate plugging in new plug-and-play coffeepot controller devices into USB port
 	COFFEEPOT_DEVICE *coffeePot1_BaseAddress  = (COFFEEPOT_DEVICE *) NULL;
 	coffeePot1_BaseAddress = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT1, uniqueCoffeePotName1);
@@ -47,6 +44,7 @@ int main(int argc, char *argv[])
 	unsigned short int waterLevelRequired1 = VOLUME_COFFEEPOT_ONE_ML*PERCENT_NINETY;
 	unsigned short int waterTemperatureRequired1 = 100;
 	My_DemonstrateCoffeePotAction(coffeePot1_BaseAddress, uniqueCoffeePotName1, waterLevelRequired1, waterTemperatureRequired1);
+#endif
 
 #if DO_SECOND_POT // Leave the second example until we can get the first one to work
 	COFFEEPOT_DEVICE *coffeePot2_BaseAddress  = (COFFEEPOT_DEVICE *) NULL;

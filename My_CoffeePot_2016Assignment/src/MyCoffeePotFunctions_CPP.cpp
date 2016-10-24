@@ -13,27 +13,26 @@
 #define INDIVIDUAL_ASSIGNMENT_MANUAL_UPDATE          	1
 #define INDIVIDUAL_ASSIGNMENT_TIMER_INTERRUPT_UPDATE 	0
 #define TEST_FOR_OVERFLOW								0
-#define DEVICE_READY_BIT_MASK		DEVICE_READY_BIT_RO
+#define DEVICE_READY_BIT_MASK			DEVICE_READY_BIT_RO
 
 
 void My_DemonstrateCoffeePotAction(COFFEEPOT_DEVICE *coffeePot_BaseAddress, char uniqueCoffeePotName[],
 		unsigned short int waterLevelRequired, unsigned short int waterTemperatureRequired) {
 	My_MakeCoffeePot_ReadyForAction(coffeePot_BaseAddress, uniqueCoffeePotName);
 
-	//Set water level flow rate
-	//coffeePot_BaseAddress->waterInFlowRegister = 200;
 	My_SimulateOneSecondPassing_CPP();
 
 	//Simulate water flowing for 10 seconds
 	//NOTE SAFETY FEATURED: Auto max flow rate control, water flow rate slowly return to OFF
-/*	for (int time = 0; time < 15; time++) {
-		coffeePot_BaseAddress->waterInFlowRegister = waterLevelRequired;
-		My_SimulateOneSecondPassing_CPP();
-	}*/
+
 
 #if TEST_FOR_OVERFLOW
+	while(1) {
+		coffeePot_BaseAddress->waterInFlowRegister = waterLevelRequired;
+		My_SimulateOneSecondPassing_CPP();
+	}
 #else
-//	"Your water control code here"
+//	Water and heater control code here
 	My_WaterControlCode_CPP(coffeePot_BaseAddress, waterLevelRequired);
 //	My_WaterControlCode_ASM(coffeePot_BaseAddress, waterLevelRequired);
 	My_HeaterControlCode_CPP(coffeePot_BaseAddress, waterTemperatureRequired);
@@ -47,16 +46,15 @@ void My_DemonstrateCoffeePotsAction(bool hardwareControl,
 		char uniqueCoffeePotName2[], unsigned short int waterLevelRequired2, unsigned short int waterTemperatureRequired2) {
 #warning "INCOMPLETE"
 
-	//Set control register bits INITandSTAYPOWEREDON BIT on device 1
-	coffeePot_BaseAddress1->controlRegister |= INITandSTAYPOWEREDON_BIT;
 
-	//Wait till Read-only Control Register bit DEVICE_READY_RO becomes 1 (after 10 simulated seconds)
+	My_MakeCoffeePot_ReadyForAction(coffeePot_BaseAddress1, uniqueCoffeePotName1);
+	My_SimulateOneSecondPassing_CPP();
+	My_MakeCoffeePot_ReadyForAction(coffeePot_BaseAddress2,uniqueCoffeePotName2);
+	My_SimulateOneSecondPassing_CPP();
+
 	if (hardwareControl == FALSE) {
 
 		/*Fill with water about half way - heat to required temperature*/
-		/*Set control register bits INITandSTAYPOWEREDON bit on Device 2*/
-		coffeePot_BaseAddress2->controlRegister |= INITandSTAYPOWEREDON_BIT;
-		//My_SimulateOneSecondPassing_ASM();
 		/*Wait till Read-only Control Register bit DEVICE_READY_RO becomes 1 (after 10 simulated seconds)*/
 		/*Fill with water about half way - heat to required temperature - do not turn off*/
 		/* Note that Device 2 keeps working - in fact it will cool down*/
@@ -75,21 +73,19 @@ void My_MakeCoffeePot_ReadyForAction(COFFEEPOT_DEVICE *coffeePot_BaseAddress, ch
 
 	//Set control register bits INITandSTAYPOWEREDON BIT on device 1
 	coffeePot_BaseAddress->controlRegister |= INITandSTAYPOWEREDON_BIT;
-//	My_SimulateOneSecondPassing_CPP();
 
 	//Enable LED operation -- Using BIT-WISE OR
 	coffeePot_BaseAddress->controlRegister |= LED_DISPLAY_ENABLE_BIT;
-//	My_SimulateOneSecondPassing_CPP();
 
 	//Use LEDs to show system powered up and LEDs enabled
 	coffeePot_BaseAddress->controlRegister |= (USE_LED1_TO_SHOW_SYSTEM_POWEREDUP | USE_LED4_TO_SHOW_LED_DISPLAY_ENABLED);
-//	My_SimulateOneSecondPassing_CPP();
+	My_SimulateOneSecondPassing_CPP();
 
 	//Wait till Read-only Control Register bit DEVICE_READY_RO becomes 1 (after 10 simulated seconds)*
-	/*for (int time = 0; time < 10; time++) {
-		My_SimulateOneSecondPassing_CPP();
-	}*/
-	coffeePot_BaseAddress->controlRegister |= DEVICE_READY_BIT_MASK;
+	bool isCoffeePotReady = FALSE;
+	while (!isCoffeePotReady) {
+		isCoffeePotReady = coffeePot_BaseAddress->controlRegister |= DEVICE_READY_BIT_MASK;
+	}
 
 }
 
