@@ -32,10 +32,13 @@ void My_DemonstrateCoffeePotAction(COFFEEPOT_DEVICE *coffeePot_BaseAddress, char
 		My_SimulateOneSecondPassing_CPP();
 	}
 #else
-//	Water and heater control code here
-	My_WaterControlCode_CPP(coffeePot_BaseAddress, waterLevelRequired);
-//	My_WaterControlCode_ASM(coffeePot_BaseAddress, waterLevelRequired);
-	My_HeaterControlCode_CPP(coffeePot_BaseAddress, waterTemperatureRequired);
+	while(1) {
+	//	Water and heater control code here
+		My_WaterControlCode_CPP(coffeePot_BaseAddress, waterLevelRequired);
+	//	My_WaterControlCode_ASM(coffeePot_BaseAddress, waterLevelRequired);
+		My_HeaterControlCode_CPP(coffeePot_BaseAddress, waterTemperatureRequired);
+	}
+
 #endif
 }
 
@@ -74,18 +77,29 @@ void My_MakeCoffeePot_ReadyForAction(COFFEEPOT_DEVICE *coffeePot_BaseAddress, ch
 	//Set control register bits INITandSTAYPOWEREDON BIT on device 1
 	coffeePot_BaseAddress->controlRegister |= INITandSTAYPOWEREDON_BIT;
 
-	//Enable LED operation -- Using BIT-WISE OR
+	//Wait till Read-only Control Register bit DEVICE_READY_RO becomes 1 (after 10 simulated seconds)*
+	bool isCoffeePotReady = FALSE;
+	while (!isCoffeePotReady) {
+		isCoffeePotReady = coffeePot_BaseAddress->controlRegister |= DEVICE_READY_BIT_MASK;
+		My_SimulateOneSecondPassing_CPP();
+	}
+//Enable LED operation -- Using BIT-WISE OR
 	coffeePot_BaseAddress->controlRegister |= LED_DISPLAY_ENABLE_BIT;
 
 	//Use LEDs to show system powered up and LEDs enabled
 	coffeePot_BaseAddress->controlRegister |= (USE_LED1_TO_SHOW_SYSTEM_POWEREDUP | USE_LED4_TO_SHOW_LED_DISPLAY_ENABLED);
 	My_SimulateOneSecondPassing_CPP();
 
-	//Wait till Read-only Control Register bit DEVICE_READY_RO becomes 1 (after 10 simulated seconds)*
-	bool isCoffeePotReady = FALSE;
-	while (!isCoffeePotReady) {
-		isCoffeePotReady = coffeePot_BaseAddress->controlRegister |= DEVICE_READY_BIT_MASK;
-	}
+
+	//Enable water power -- show with LED
+	coffeePot_BaseAddress->controlRegister |= WATER_ENABLE_BIT;
+	coffeePot_BaseAddress->controlRegister |= USE_LED3_TO_SHOW_WATER_ENABLED;
+	My_SimulateOneSecondPassing_CPP();
+
+	//Enable heater power -- show with LED
+	coffeePot_BaseAddress->controlRegister |= HEATER_ENABLE_BIT;
+	coffeePot_BaseAddress->controlRegister |= USE_LED2_TO_SHOW_HEATER_ENABLED;
+	My_SimulateOneSecondPassing_CPP();
 
 }
 

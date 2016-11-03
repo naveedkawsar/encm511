@@ -9,12 +9,17 @@
 #include <MockDevices2016\CoffeePot_SimulatorFunctions2016.h>
 #include "MyCoffeePotFunctions_forCPP.h"	//NOTE: LEAVE IN UNLESS MAIN.H INCLUDES
 
-#define DO_FIRST_POT					0
-#define DO_SECOND_POT					1
+#define DO_FIRST_POT					1
+#define DO_SECOND_POT					0
+#define DO_THIRD_POT					0
+#define DO_FOURTH_POT					0
 #define CONTROL_TWO_POTS_AT_ONE_TIME	0
-#define VOLUME_COFFEEPOT_ONE_ML			490
-#define VOLUME_COFFEEPOT_TWO_ML			310
-#define PERCENT_NINETY					0.9
+#define CONTROL_THREE_POTS_AT_ONE_TIME	0
+#define CONTROL FOUR_POTS_AT_ONE_TIME	0
+#define VOLUME_COFFEEPOT_ONE_ML			495
+#define VOLUME_COFFEEPOT_TWO_ML			317
+#define VOLUME_COFFEEPOT_THREE_ML		494
+#define VOLUME_COFFEEPOT_FOUR_ML		342
 
 void NetworkTimingFudge_USE_CCES_GUI_Delay(void) {/*FUNCTION STUB*/}
 
@@ -32,6 +37,9 @@ int main(int argc, char *argv[])
 	
 	char uniqueCoffeePotName1[] = "Naveed";					// String determines coffeepot volume
 	char uniqueCoffeePotName2[] = "Kawsar";
+	char uniqueCoffeePotName3[] = "ENCM511";
+	char uniqueCoffeePotName4[] = "MSmith";
+
 
 #if DO_FIRST_POT
 	// Simulate plugging in new plug-and-play coffeepot controller devices into USB port
@@ -41,7 +49,7 @@ int main(int argc, char *argv[])
 	My_SimulateOneSecondPassing_CPP();
 
 	// Going to call the code to fill a coffeepot to a desired water level but not to any heating
-	unsigned short int waterLevelRequired1 = VOLUME_COFFEEPOT_ONE_ML*PERCENT_NINETY;
+	unsigned short int waterLevelRequired1 = VOLUME_COFFEEPOT_ONE_ML;
 	unsigned short int waterTemperatureRequired1 = 100;
 	My_DemonstrateCoffeePotAction(coffeePot1_BaseAddress, uniqueCoffeePotName1, waterLevelRequired1, waterTemperatureRequired1);
 #endif
@@ -51,9 +59,29 @@ int main(int argc, char *argv[])
 	coffeePot2_BaseAddress = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT2, uniqueCoffeePotName2);
 //	My_SimulateOneSecondPassing_ASM();
 
-	unsigned short int waterLevelRequired2 = VOLUME_COFFEEPOT_TWO_ML*PERCENT_NINETY;
+	unsigned short int waterLevelRequired2 = VOLUME_COFFEEPOT_TWO_ML;
 	unsigned short int waterTemperatureRequired2 = 80;
 	My_DemonstrateCoffeePotAction(coffeePot2_BaseAddress, uniqueCoffeePotName2, waterLevelRequired2, waterTemperatureRequired2);
+#endif
+
+#if DO_THIRD_POT // Leave the second example until we can get the first one to work
+	COFFEEPOT_DEVICE *coffeePot3_BaseAddress  = (COFFEEPOT_DEVICE *) NULL;
+	coffeePot3_BaseAddress = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT2, uniqueCoffeePotName3);
+//	My_SimulateOneSecondPassing_ASM();
+
+	unsigned short int waterLevelRequired3 = VOLUME_COFFEEPOT_THREE_ML*PERCENT_NINETY;
+	unsigned short int waterTemperatureRequired2 = 80;
+	My_DemonstrateCoffeePotAction(coffeePot3_BaseAddress, uniqueCoffeePotName3, waterLevelRequired3, waterTemperatureRequired3);
+#endif
+
+#if DO_FOURTH_POT // Leave the second example until we can get the first one to work
+	COFFEEPOT_DEVICE *coffeePot4_BaseAddress  = (COFFEEPOT_DEVICE *) NULL;
+	coffeePot4_BaseAddress = Add_CoffeePotToSystem_PlugAndPlay(COFFEEPOT2, uniqueCoffeePotName4);
+//	My_SimulateOneSecondPassing_ASM();
+
+	unsigned short int waterLevelRequired4 = VOLUME_COFFEEPOT_FOUR_ML*PERCENT_NINETY;
+	unsigned short int waterTemperatureRequired4 = 80;
+	My_DemonstrateCoffeePotAction(coffeePot4_BaseAddress, uniqueCoffeePotName4, waterLevelRequired4, waterTemperatureRequired4);
 #endif
 
 #if CONTROL_TWO_POTS_AT_ONE_TIME
