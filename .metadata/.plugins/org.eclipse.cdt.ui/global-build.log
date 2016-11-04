@@ -1,0 +1,1688 @@
+13:20:21 **** Clean-only build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make clean 
+clean  "./system/startup_ldf/app_cplbtab.doj"  "./system/startup_ldf/app_handler_table.doj"  "./system/startup_ldf/app_heaptab.doj"  "./system/startup_ldf/app_startup.doj"  "./system/adi_initialize.doj"  "./src/MyCoffeePotFunctions_CPP.doj"  "./src/My_CoffeePot_2016main.doj"  "./src/My_HeaterControlCode_ASM.doj"  "./src/My_HeaterControlCode_CPP.doj"  "./src/My_WaterControlCode_CPP.doj" "./system/startup_ldf/app_cplbtab.d"  "./system/startup_ldf/app_handler_table.d"  "./system/startup_ldf/app_heaptab.d"  "./system/adi_initialize.d" "./src/My_HeaterControlCode_ASM.d" "./src/MyCoffeePotFunctions_CPP.d"  "./src/My_CoffeePot_2016main.d"  "./src/My_HeaterControlCode_CPP.d"  "./src/My_WaterControlCode_CPP.d" linker_log.xml  "./system/startup_ldf/app_startup.d" My_CoffeePot_2016Assignment.dxe
+' '
+13:20:24 **** Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../system/startup_ldf/app_cplbtab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_cplbtab.d" -o "system/startup_ldf/app_cplbtab.doj" "../system/startup_ldf/app_cplbtab.c"
+'Finished building: ../system/startup_ldf/app_cplbtab.c'
+' '
+'Building file: ../system/startup_ldf/app_handler_table.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_handler_table.d" -o "system/startup_ldf/app_handler_table.doj" "../system/startup_ldf/app_handler_table.c"
+'Finished building: ../system/startup_ldf/app_handler_table.c'
+' '
+'Building file: ../system/startup_ldf/app_heaptab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_heaptab.d" -o "system/startup_ldf/app_heaptab.doj" "../system/startup_ldf/app_heaptab.c"
+'Finished building: ../system/startup_ldf/app_heaptab.c'
+' '
+'Building file: ../system/startup_ldf/app_startup.s'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "system/startup_ldf/app_startup.d" -o "system/startup_ldf/app_startup.doj" "../system/startup_ldf/app_startup.s"
+'Finished building: ../system/startup_ldf/app_startup.s'
+' '
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/adi_initialize.d" -o "system/adi_initialize.doj" "../system/adi_initialize.c"
+'Finished building: ../system/adi_initialize.c'
+' '
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 48: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_WaterControlCode_ASM.d" -o "src/My_WaterControlCode_ASM.doj" "../src/My_WaterControlCode_ASM.asm"
+[Error pp0051] "C:\Analog Devices\CrossCore Embedded Studio 2.3.0\Blackfin\include\MockDevices2016\CoffeePot_SimulatorFunctions2016.h":12 Failed to open '#include' file 'CoffeePot_SimulatorStructures.h'
+
+Preprocessor finished with 1 error(s) 0 warning(s)
+[Error ea1088]  Previous errors in pre-processing prevent assembly.
+
+Assembler totals: 1 error(s) and 0 warning(s)
+make: *** [src/My_WaterControlCode_ASM.doj] Error 1
+13:24:16 **** Clean-only build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make clean 
+clean  "./system/startup_ldf/app_cplbtab.doj"  "./system/startup_ldf/app_handler_table.doj"  "./system/startup_ldf/app_heaptab.doj"  "./system/startup_ldf/app_startup.doj"  "./system/adi_initialize.doj"  "./src/MyCoffeePotFunctions_CPP.doj"  "./src/My_CoffeePot_2016main.doj"  "./src/My_HeaterControlCode_ASM.doj"  "./src/My_HeaterControlCode_CPP.doj"  "./src/My_WaterControlCode_ASM.doj"  "./src/My_WaterControlCode_CPP.doj" "./system/startup_ldf/app_cplbtab.d"  "./system/startup_ldf/app_handler_table.d"  "./system/startup_ldf/app_heaptab.d"  "./system/adi_initialize.d" "./src/My_HeaterControlCode_ASM.d"  "./src/My_WaterControlCode_ASM.d" "./src/MyCoffeePotFunctions_CPP.d"  "./src/My_CoffeePot_2016main.d"  "./src/My_HeaterControlCode_CPP.d"  "./src/My_WaterControlCode_CPP.d" linker_log.xml  "./system/startup_ldf/app_startup.d" My_CoffeePot_2016Assignment.dxe
+' '
+13:24:19 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../system/startup_ldf/app_cplbtab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_cplbtab.d" -o "system/startup_ldf/app_cplbtab.doj" "../system/startup_ldf/app_cplbtab.c"
+'Finished building: ../system/startup_ldf/app_cplbtab.c'
+' '
+'Building file: ../system/startup_ldf/app_handler_table.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_handler_table.d" -o "system/startup_ldf/app_handler_table.doj" "../system/startup_ldf/app_handler_table.c"
+'Finished building: ../system/startup_ldf/app_handler_table.c'
+' '
+'Building file: ../system/startup_ldf/app_heaptab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_heaptab.d" -o "system/startup_ldf/app_heaptab.doj" "../system/startup_ldf/app_heaptab.c"
+'Finished building: ../system/startup_ldf/app_heaptab.c'
+' '
+'Building file: ../system/startup_ldf/app_startup.s'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "system/startup_ldf/app_startup.d" -o "system/startup_ldf/app_startup.doj" "../system/startup_ldf/app_startup.s"
+'Finished building: ../system/startup_ldf/app_startup.s'
+' '
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/adi_initialize.d" -o "system/adi_initialize.doj" "../system/adi_initialize.c"
+'Finished building: ../system/adi_initialize.c'
+' '
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 48: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+13:36:22 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+13:42:40 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+13:48:37 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 48: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+"..\src\My_HeaterControlCode_CPP.cpp", line 25: cc0018:  error: expected a ")"
+  	coffeePot_BaseAddress->controlRegister |= (USE_LED2_TO_SHOW_HEATER_ENABLED;
+  	                                                                          ^
+
+1 error detected in the compilation of "..\src\My_HeaterControlCode_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_HeaterControlCode_CPP.doj] Error 1
+13:48:58 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+15:13:45 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+15:15:41 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+15:16:13 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+15:16:32 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+00:40:24 **** Clean-only build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make clean 
+clean  "./system/startup_ldf/app_cplbtab.doj"  "./system/startup_ldf/app_handler_table.doj"  "./system/startup_ldf/app_heaptab.doj"  "./system/startup_ldf/app_startup.doj"  "./system/adi_initialize.doj"  "./src/MyCoffeePotFunctions_CPP.doj"  "./src/My_CoffeePot_2016main.doj"  "./src/My_HeaterControlCode_ASM.doj"  "./src/My_HeaterControlCode_CPP.doj"  "./src/My_WaterControlCode_CPP.doj" "./system/startup_ldf/app_cplbtab.d"  "./system/startup_ldf/app_handler_table.d"  "./system/startup_ldf/app_heaptab.d"  "./system/adi_initialize.d" "./src/My_HeaterControlCode_ASM.d" "./src/MyCoffeePotFunctions_CPP.d"  "./src/My_CoffeePot_2016main.d"  "./src/My_HeaterControlCode_CPP.d"  "./src/My_WaterControlCode_CPP.d" linker_log.xml  "./system/startup_ldf/app_startup.d" My_CoffeePot_2016Assignment.dxe
+' '
+00:40:28 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../system/startup_ldf/app_cplbtab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_cplbtab.d" -o "system/startup_ldf/app_cplbtab.doj" "../system/startup_ldf/app_cplbtab.c"
+'Finished building: ../system/startup_ldf/app_cplbtab.c'
+' '
+'Building file: ../system/startup_ldf/app_handler_table.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_handler_table.d" -o "system/startup_ldf/app_handler_table.doj" "../system/startup_ldf/app_handler_table.c"
+'Finished building: ../system/startup_ldf/app_handler_table.c'
+' '
+'Building file: ../system/startup_ldf/app_heaptab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_heaptab.d" -o "system/startup_ldf/app_heaptab.doj" "../system/startup_ldf/app_heaptab.c"
+'Finished building: ../system/startup_ldf/app_heaptab.c'
+' '
+'Building file: ../system/startup_ldf/app_startup.s'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "system/startup_ldf/app_startup.d" -o "system/startup_ldf/app_startup.doj" "../system/startup_ldf/app_startup.s"
+'Finished building: ../system/startup_ldf/app_startup.s'
+' '
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/adi_initialize.d" -o "system/adi_initialize.doj" "../system/adi_initialize.c"
+'Finished building: ../system/adi_initialize.c'
+' '
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 48: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+00:41:01 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+00:42:32 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+00:42:49 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+00:46:27 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+00:46:43 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+00:48:13 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+00:48:24 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+00:51:44 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+00:51:57 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+01:37:31 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 48: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+01:40:36 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+01:40:42 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+01:48:55 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+01:50:05 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+01:55:48 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+04:43:41 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 47: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:38:32 **** Clean-only build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make clean 
+clean  "./system/startup_ldf/app_cplbtab.doj"  "./system/startup_ldf/app_handler_table.doj"  "./system/startup_ldf/app_heaptab.doj"  "./system/startup_ldf/app_startup.doj"  "./system/adi_initialize.doj"  "./src/MyCoffeePotFunctions_CPP.doj"  "./src/My_CoffeePot_2016main.doj"  "./src/My_HeaterControlCode_ASM.doj"  "./src/My_HeaterControlCode_CPP.doj"  "./src/My_WaterControlCode_CPP.doj" "./system/startup_ldf/app_cplbtab.d"  "./system/startup_ldf/app_handler_table.d"  "./system/startup_ldf/app_heaptab.d"  "./system/adi_initialize.d" "./src/My_HeaterControlCode_ASM.d" "./src/MyCoffeePotFunctions_CPP.d"  "./src/My_CoffeePot_2016main.d"  "./src/My_HeaterControlCode_CPP.d"  "./src/My_WaterControlCode_CPP.d" linker_log.xml  "./system/startup_ldf/app_startup.d" My_CoffeePot_2016Assignment.dxe
+' '
+05:38:36 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../system/startup_ldf/app_cplbtab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_cplbtab.d" -o "system/startup_ldf/app_cplbtab.doj" "../system/startup_ldf/app_cplbtab.c"
+'Finished building: ../system/startup_ldf/app_cplbtab.c'
+' '
+'Building file: ../system/startup_ldf/app_handler_table.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_handler_table.d" -o "system/startup_ldf/app_handler_table.doj" "../system/startup_ldf/app_handler_table.c"
+'Finished building: ../system/startup_ldf/app_handler_table.c'
+' '
+'Building file: ../system/startup_ldf/app_heaptab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_heaptab.d" -o "system/startup_ldf/app_heaptab.doj" "../system/startup_ldf/app_heaptab.c"
+'Finished building: ../system/startup_ldf/app_heaptab.c'
+' '
+'Building file: ../system/startup_ldf/app_startup.s'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "system/startup_ldf/app_startup.d" -o "system/startup_ldf/app_startup.doj" "../system/startup_ldf/app_startup.s"
+'Finished building: ../system/startup_ldf/app_startup.s'
+' '
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/adi_initialize.d" -o "system/adi_initialize.doj" "../system/adi_initialize.c"
+'Finished building: ../system/adi_initialize.c'
+' '
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 47: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+"..\src\My_WaterControlCode_CPP.cpp", line 10: cc0011: {D} error: unrecognized preprocessing directive
+  #defien EIGHTY_DEG_C		80
+   ^
+
+"..\src\My_WaterControlCode_CPP.cpp", line 28: cc0020:  error: identifier "EIGHTY_DEG_C" is undefined
+  		if (currentTempC < EIGHTY_DEG_C) {
+  		                   ^
+
+2 errors detected in the compilation of "..\src\My_WaterControlCode_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_WaterControlCode_CPP.doj] Error 1
+05:39:10 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:42:22 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:42:52 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+05:44:08 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:44:23 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+05:44:28 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+05:46:09 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+"..\src\My_CoffeePot_2016main.cpp", line 52: cc0020:  error: identifier "PERCENT_NINETY" is undefined
+  	unsigned short int waterLevelRequired1 = VOLUME_COFFEEPOT_ONE_ML*PERCENT_NINETY;
+  	                                                                 ^
+
+1 error detected in the compilation of "..\src\My_CoffeePot_2016main.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_CoffeePot_2016main.doj] Error 1
+05:46:34 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:46:48 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+05:49:31 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:49:41 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+06:34:20 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+06:35:02 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+06:37:01 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+07:07:49 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+"..\src\My_HeaterControlCode_CPP.cpp", line 35: cc0020:  error: identifier "boostValue" is undefined
+  		coffeePot_BaseAddress->heaterBoostRegister = boostValue;
+  		                                             ^
+
+1 error detected in the compilation of "..\src\My_HeaterControlCode_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_HeaterControlCode_CPP.doj] Error 1
+07:08:28 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+"..\src\My_HeaterControlCode_CPP.cpp", line 35: cc0020:  error: identifier "boostValue" is undefined
+  		coffeePot_BaseAddress->heaterBoostRegister = boostValue;
+  		                                             ^
+
+1 error detected in the compilation of "..\src\My_HeaterControlCode_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_HeaterControlCode_CPP.doj] Error 1
+07:08:53 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+"..\src\My_HeaterControlCode_CPP.cpp", line 30: cc0020:  error: identifier "boostValue" is undefined
+  		boostValue = BOOST_FACTOR_TWO;
+  		^
+
+"..\src\My_HeaterControlCode_CPP.cpp", line 32: cc0020:  error: identifier "boostValue" is undefined
+  		boostValue = BOOST_FACTOR_FIVE;
+  		^
+
+"..\src\My_HeaterControlCode_CPP.cpp", line 36: cc0020:  error: identifier "boostValue" is undefined
+  		coffeePot_BaseAddress->heaterBoostRegister = boostValue;
+  		                                             ^
+
+3 errors detected in the compilation of "..\src\My_HeaterControlCode_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_HeaterControlCode_CPP.doj] Error 1
+07:09:02 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+07:09:20 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+12:27:26 **** Clean-only build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make clean 
+clean  "./system/startup_ldf/app_cplbtab.doj"  "./system/startup_ldf/app_handler_table.doj"  "./system/startup_ldf/app_heaptab.doj"  "./system/startup_ldf/app_startup.doj"  "./system/adi_initialize.doj"  "./src/MyCoffeePotFunctions_CPP.doj"  "./src/My_CoffeePot_2016main.doj"  "./src/My_HeaterControlCode_ASM.doj"  "./src/My_HeaterControlCode_CPP.doj"  "./src/My_WaterControlCode_CPP.doj" "./system/startup_ldf/app_cplbtab.d"  "./system/startup_ldf/app_handler_table.d"  "./system/startup_ldf/app_heaptab.d"  "./system/adi_initialize.d" "./src/My_HeaterControlCode_ASM.d" "./src/MyCoffeePotFunctions_CPP.d"  "./src/My_CoffeePot_2016main.d"  "./src/My_HeaterControlCode_CPP.d"  "./src/My_WaterControlCode_CPP.d" linker_log.xml  "./system/startup_ldf/app_startup.d" My_CoffeePot_2016Assignment.dxe
+' '
+12:27:29 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../system/startup_ldf/app_cplbtab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_cplbtab.d" -o "system/startup_ldf/app_cplbtab.doj" "../system/startup_ldf/app_cplbtab.c"
+'Finished building: ../system/startup_ldf/app_cplbtab.c'
+' '
+'Building file: ../system/startup_ldf/app_handler_table.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_handler_table.d" -o "system/startup_ldf/app_handler_table.doj" "../system/startup_ldf/app_handler_table.c"
+'Finished building: ../system/startup_ldf/app_handler_table.c'
+' '
+'Building file: ../system/startup_ldf/app_heaptab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_heaptab.d" -o "system/startup_ldf/app_heaptab.doj" "../system/startup_ldf/app_heaptab.c"
+'Finished building: ../system/startup_ldf/app_heaptab.c'
+' '
+'Building file: ../system/startup_ldf/app_startup.s'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "system/startup_ldf/app_startup.d" -o "system/startup_ldf/app_startup.doj" "../system/startup_ldf/app_startup.s"
+'Finished building: ../system/startup_ldf/app_startup.s'
+' '
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/adi_initialize.d" -o "system/adi_initialize.doj" "../system/adi_initialize.c"
+'Finished building: ../system/adi_initialize.c'
+' '
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+12:28:24 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+12:31:03 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+15:43:21 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+[Error ea5004] "../src/My_HeaterControlCode_ASM.asm":38 Syntax Error in :
+	IF CC JUMP HIGH_BOOST:
+	syntax error is at or near text ':'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_HeaterControlCode_ASM.asm":45 Syntax Error in :
+	IF !CC JUMP _My_HeaterControlCode_CPP.END:
+	syntax error is at or near text ':'.
+	Attempting error recovery by ignoring text until the ';'
+
+ Previous errors prevent assembly
+
+Assembler totals: 2 error(s) and 0 warning(s)
+make: *** [src/My_HeaterControlCode_ASM.doj] Error 1
+15:43:55 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+15:47:00 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+15:56:44 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+[Warning ea1092] "../src/My_HeaterControlCode_ASM.asm":35 Symbol '_CurrentTemperature_CPP' is undefined.
+	Check spelling. If '_CurrentTemperature_CPP' is defined in a different file, use ".extern".
+
+Assembler totals: 0 error(s) and 1 warning(s)
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+15:58:19 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+[Warning ea1092] "../src/My_HeaterControlCode_ASM.asm":35 Symbol '_CurrentTemperature_CPP' is undefined.
+	Check spelling. If '_CurrentTemperature_CPP' is defined in a different file, use ".extern".
+
+Assembler totals: 0 error(s) and 1 warning(s)
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:01:57 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+[Warning ea1092] "../src/My_HeaterControlCode_ASM.asm":35 Symbol '_CurrentTemperature_CPP' is undefined.
+	Check spelling. If '_CurrentTemperature_CPP' is defined in a different file, use ".extern".
+
+Assembler totals: 0 error(s) and 1 warning(s)
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+        'My_SimulateOneSecondPassing_CPP [_My_SimulateOneSecondPassing_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:04:41 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+        'My_SimulateOneSecondPassing_CPP [_My_SimulateOneSecondPassing_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:06:26 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+        'My_SimulateOneSecondPassing_CPP [_My_SimulateOneSecondPassing_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:07:43 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+        'My_SimulateOneSecondPassing_CPP [_My_SimulateOneSecondPassing_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:10:10 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+        'My_HeaterControlCode_ASM [_My_HeaterControlCode_ASM]' referenced from 'src\MyCoffeePotFunctions_CPP.doj'
+        'My_SimulateOneSecondPassing_CPP [_My_SimulateOneSecondPassing_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:12:23 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+        'My_HeaterControlCode_ASM [_My_HeaterControlCode_ASM]' referenced from 'src\MyCoffeePotFunctions_CPP.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:13:54 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 40: cc0165:  error: too few arguments in function call
+  		CurrentTemperature_CPP(); CurrentWaterLevel_CPP();
+  		                       ^
+
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 40: cc0165:  error: too few arguments in function call
+  		CurrentTemperature_CPP(); CurrentWaterLevel_CPP();
+  		                                                ^
+
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 51: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+2 errors detected in the compilation of "..\src\MyCoffeePotFunctions_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/MyCoffeePotFunctions_CPP.doj] Error 1
+16:14:15 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 40: cc0165:  error: too few arguments in function call
+  		CurrentTemperature_CPP(); CurrentWaterLevel_CPP();
+  		                       ^
+
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 40: cc0165:  error: too few arguments in function call
+  		CurrentTemperature_CPP(); CurrentWaterLevel_CPP();
+  		                                                ^
+
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 51: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+2 errors detected in the compilation of "..\src\MyCoffeePotFunctions_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/MyCoffeePotFunctions_CPP.doj] Error 1
+16:14:34 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 40: cc0165:  error: too few arguments in function call
+  		CurrentTemperature_CPP(); CurrentWaterLevel_CPP();
+  		                       ^
+
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 40: cc0165:  error: too few arguments in function call
+  		CurrentTemperature_CPP(); CurrentWaterLevel_CPP();
+  		                                                ^
+
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 51: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+2 errors detected in the compilation of "..\src\MyCoffeePotFunctions_CPP.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/MyCoffeePotFunctions_CPP.doj] Error 1
+16:14:58 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 51: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'CurrentTemperature_CPP [_CurrentTemperature_CPP]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:16:18 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+16:30:32 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+16:32:26 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+16:41:47 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+[Warning ea1092] "../src/My_HeaterControlCode_ASM.asm":47 Symbol '_My_HeaterControlCode_CPP.END' is undefined.
+	Check spelling. If '_My_HeaterControlCode_CPP.END' is defined in a different file, use ".extern".
+
+Assembler totals: 0 error(s) and 1 warning(s)
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'My_HeaterControlCode_CPP.END [_My_HeaterControlCode_CPP.END]' referenced from 'src\My_HeaterControlCode_ASM.doj'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:42:17 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+16:42:51 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+16:43:44 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+16:46:51 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+16:52:12 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+16:52:38 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+16:54:16 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+"..\src\My_CoffeePot_2016main.cpp", line 47: cc0020:  error: identifier "NULL" is undefined
+  	COFFEEPOT_DEVICE *coffeePot1_BaseAddress  = (COFFEEPOT_DEVICE *) NULL;
+  	                                                                 ^
+
+1 error detected in the compilation of "..\src\My_CoffeePot_2016main.cpp".
+cc3089: fatal error: Compilation failed (code:2)
+make: *** [src/My_CoffeePot_2016main.doj] Error 1
+16:54:44 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+
+[Error li1021]  The following symbols referenced in processor 'p0' could not be resolved:
+        'NetworkTimingFudge_USE_CCES_GUI_Delay() [__Z37NetworkTimingFudge_USE_CCES_GUI_Delayv]' referenced from 'C:\Analog Devices\CrossCore Embedded Studio 2.3.0\Blackfin\lib\bf532_rev_any\ADSP533_Coffeepot_GUI_Library.dlb[CoffeePot_SystemFiles.doj]'
+
+Linker finished with 1 error 
+cc3089: fatal error: Link failed (code:1)
+make: *** [My_CoffeePot_2016Assignment.dxe] Error 1
+16:55:08 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+16:59:45 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:01:33 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+[Error ea5004] "../src/My_HeaterControlCode_ASM.asm":33 Syntax Error in :
+	P0.L = lo(R4);
+	syntax error is at or near text 'R4'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_HeaterControlCode_ASM.asm":34 Syntax Error in :
+	P0.H = hi(R4);
+	syntax error is at or near text 'R4'.
+	Attempting error recovery by ignoring text until the ';'
+
+ Previous errors prevent assembly
+
+Assembler totals: 2 error(s) and 0 warning(s)
+make: *** [src/My_HeaterControlCode_ASM.doj] Error 1
+17:01:56 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+[Error ea5004] "../src/My_HeaterControlCode_ASM.asm":33 Syntax Error in :
+	P0.L = lo[R4];
+	syntax error is at or near text '['.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_HeaterControlCode_ASM.asm":34 Syntax Error in :
+	P0.H = hi[R4];
+	syntax error is at or near text '['.
+	Attempting error recovery by ignoring text until the ';'
+
+ Previous errors prevent assembly
+
+Assembler totals: 2 error(s) and 0 warning(s)
+make: *** [src/My_HeaterControlCode_ASM.doj] Error 1
+17:03:14 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:03:43 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+17:11:36 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:11:47 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+17:14:44 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:15:28 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+17:20:01 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:20:12 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+17:25:10 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:25:17 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+17:29:29 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:29:59 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+17:45:16 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../system/startup_ldf/app_cplbtab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_cplbtab.d" -o "system/startup_ldf/app_cplbtab.doj" "../system/startup_ldf/app_cplbtab.c"
+'Finished building: ../system/startup_ldf/app_cplbtab.c'
+' '
+'Building file: ../system/startup_ldf/app_handler_table.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_handler_table.d" -o "system/startup_ldf/app_handler_table.doj" "../system/startup_ldf/app_handler_table.c"
+'Finished building: ../system/startup_ldf/app_handler_table.c'
+' '
+'Building file: ../system/startup_ldf/app_heaptab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_heaptab.d" -o "system/startup_ldf/app_heaptab.doj" "../system/startup_ldf/app_heaptab.c"
+'Finished building: ../system/startup_ldf/app_heaptab.c'
+' '
+'Building file: ../system/startup_ldf/app_startup.s'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "system/startup_ldf/app_startup.d" -o "system/startup_ldf/app_startup.doj" "../system/startup_ldf/app_startup.s"
+'Finished building: ../system/startup_ldf/app_startup.s'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+17:56:07 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+18:05:45 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+18:06:00 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+04:54:41 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:32:26 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+05:32:50 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+06:53:26 **** Clean-only build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make clean 
+clean  "./system/startup_ldf/app_cplbtab.doj"  "./system/startup_ldf/app_handler_table.doj"  "./system/startup_ldf/app_heaptab.doj"  "./system/startup_ldf/app_startup.doj"  "./system/adi_initialize.doj"  "./src/MyCoffeePotFunctions_CPP.doj"  "./src/My_CoffeePot_2016main.doj"  "./src/My_HeaterControlCode_ASM.doj"  "./src/My_HeaterControlCode_CPP.doj"  "./src/My_WaterControlCode_CPP.doj" "./system/startup_ldf/app_cplbtab.d"  "./system/startup_ldf/app_handler_table.d"  "./system/startup_ldf/app_heaptab.d"  "./system/adi_initialize.d" "./src/My_HeaterControlCode_ASM.d" "./src/MyCoffeePotFunctions_CPP.d"  "./src/My_CoffeePot_2016main.d"  "./src/My_HeaterControlCode_CPP.d"  "./src/My_WaterControlCode_CPP.d" linker_log.xml  "./system/startup_ldf/app_startup.d" My_CoffeePot_2016Assignment.dxe
+' '
+06:53:28 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../system/startup_ldf/app_cplbtab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_cplbtab.d" -o "system/startup_ldf/app_cplbtab.doj" "../system/startup_ldf/app_cplbtab.c"
+'Finished building: ../system/startup_ldf/app_cplbtab.c'
+' '
+'Building file: ../system/startup_ldf/app_handler_table.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_handler_table.d" -o "system/startup_ldf/app_handler_table.doj" "../system/startup_ldf/app_handler_table.c"
+'Finished building: ../system/startup_ldf/app_handler_table.c'
+' '
+'Building file: ../system/startup_ldf/app_heaptab.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/startup_ldf/app_heaptab.d" -o "system/startup_ldf/app_heaptab.doj" "../system/startup_ldf/app_heaptab.c"
+'Finished building: ../system/startup_ldf/app_heaptab.c'
+' '
+'Building file: ../system/startup_ldf/app_startup.s'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "system/startup_ldf/app_startup.d" -o "system/startup_ldf/app_startup.doj" "../system/startup_ldf/app_startup.s"
+'Finished building: ../system/startup_ldf/app_startup.s'
+' '
+'Building file: ../system/adi_initialize.c'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "system/adi_initialize.d" -o "system/adi_initialize.doj" "../system/adi_initialize.c"
+'Finished building: ../system/adi_initialize.c'
+' '
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 50: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_HeaterControlCode_ASM.d" -o "src/My_HeaterControlCode_ASM.doj" "../src/My_HeaterControlCode_ASM.asm"
+'Finished building: ../src/My_HeaterControlCode_ASM.asm'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_WaterControlCode_ASM.d" -o "src/My_WaterControlCode_ASM.doj" "../src/My_WaterControlCode_ASM.asm"
+[Warning pp0039] "../src/My_WaterControlCode_ASM.asm":54 nested /* ... */ comments; enclosing comment starts on line '25'
+
+Preprocessor finished with 0 error(s) 1 warning(s)
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":65 Syntax Error in :
+	[BASEADDR_P0] = R0;								 
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":67 Syntax Error in :
+	B[BASEADDR_P0 + 7] = R3;
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":78 Syntax Error in :
+	[BASEADDR_P0] = R4;
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":79 Syntax Error in :
+	TEMP_C_R6 = 80 (X);
+	syntax error is at or near text '='.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5003] "../src/My_WaterControlCode_ASM.asm":85 Semantic Error in instruction :
+	CC = R0 < TEMP_C_R6;
+	Operands don't fit instruction template 'CC ASSIGN REG LESS_THAN expr'.
+	Check for an out of range immediate value or an illegal register.
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":87 Syntax Error in :
+	B[BASEADDR_P0 + 7] = R3;
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+ Previous errors prevent assembly
+
+Assembler totals: 6 error(s) and 0 warning(s)
+make: *** [src/My_WaterControlCode_ASM.doj] Error 1
+06:55:42 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_WaterControlCode_ASM.d" -o "src/My_WaterControlCode_ASM.doj" "../src/My_WaterControlCode_ASM.asm"
+[Warning pp0039] "../src/My_WaterControlCode_ASM.asm":54 nested /* ... */ comments; enclosing comment starts on line '25'
+
+Preprocessor finished with 0 error(s) 1 warning(s)
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":67 Syntax Error in :
+	[BASEADDR_P0] = R4;
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":70 Syntax Error in :
+	B[BASEADDR_P0 + 7] = R3;
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":82 Syntax Error in :
+	[BASEADDR_P0] = R4;
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":83 Syntax Error in :
+	TEMP_C_R6 = 80 (X);
+	syntax error is at or near text '='.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5003] "../src/My_WaterControlCode_ASM.asm":89 Semantic Error in instruction :
+	CC = R0 < TEMP_C_R6;
+	Operands don't fit instruction template 'CC ASSIGN REG LESS_THAN expr'.
+	Check for an out of range immediate value or an illegal register.
+
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":91 Syntax Error in :
+	B[BASEADDR_P0 + 7] = R3;
+	syntax error is at or near text 'BASEADDR_P0'.
+	Attempting error recovery by ignoring text until the ';'
+
+ Previous errors prevent assembly
+
+Assembler totals: 6 error(s) and 0 warning(s)
+make: *** [src/My_WaterControlCode_ASM.doj] Error 1
+06:57:01 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_WaterControlCode_ASM.d" -o "src/My_WaterControlCode_ASM.doj" "../src/My_WaterControlCode_ASM.asm"
+[Warning pp0039] "../src/My_WaterControlCode_ASM.asm":54 nested /* ... */ comments; enclosing comment starts on line '25'
+
+Preprocessor finished with 0 error(s) 1 warning(s)
+[Error ea5004] "../src/My_WaterControlCode_ASM.asm":83 Syntax Error in :
+	TEMP_C_R6 = 80 (X);
+	syntax error is at or near text '='.
+	Attempting error recovery by ignoring text until the ';'
+
+[Error ea5003] "../src/My_WaterControlCode_ASM.asm":89 Semantic Error in instruction :
+	CC = R0 < TEMP_C_R6;
+	Operands don't fit instruction template 'CC ASSIGN REG LESS_THAN expr'.
+	Check for an out of range immediate value or an illegal register.
+
+ Previous errors prevent assembly
+
+Assembler totals: 2 error(s) and 0 warning(s)
+make: *** [src/My_WaterControlCode_ASM.doj] Error 1
+06:57:31 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_ASM.asm'
+'Invoking: CrossCore Blackfin Assembler'
+easmblkfn.exe -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -si-revision any -g -DCORE0 -D_DEBUG -i"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -gnu-style-dependencies -MM -Mo "src/My_WaterControlCode_ASM.d" -o "src/My_WaterControlCode_ASM.doj" "../src/My_WaterControlCode_ASM.asm"
+[Warning pp0039] "../src/My_WaterControlCode_ASM.asm":55 nested /* ... */ comments; enclosing comment starts on line '26'
+
+Preprocessor finished with 0 error(s) 1 warning(s)
+'Finished building: ../src/My_WaterControlCode_ASM.asm'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+06:57:43 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+07:02:55 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/MyCoffeePotFunctions_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/MyCoffeePotFunctions_CPP.d" -c++ -o "src/MyCoffeePotFunctions_CPP.doj" "../src/MyCoffeePotFunctions_CPP.cpp"
+"..\src\MyCoffeePotFunctions_CPP.cpp", line 51: cc1133: {D} warning: #warning directive: "INCOMPLETE"
+  #warning "INCOMPLETE"
+   ^
+
+'Finished building: ../src/MyCoffeePotFunctions_CPP.cpp'
+' '
+'Building file: ../src/My_CoffeePot_2016main.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_CoffeePot_2016main.d" -c++ -o "src/My_CoffeePot_2016main.doj" "../src/My_CoffeePot_2016main.cpp"
+'Finished building: ../src/My_CoffeePot_2016main.cpp'
+' '
+'Building file: ../src/My_HeaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_HeaterControlCode_CPP.d" -c++ -o "src/My_HeaterControlCode_CPP.doj" "../src/My_HeaterControlCode_CPP.cpp"
+'Finished building: ../src/My_HeaterControlCode_CPP.cpp'
+' '
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+07:03:08 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.
+07:05:07 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+'Building file: ../src/My_WaterControlCode_CPP.cpp'
+'Invoking: CrossCore Blackfin C/C++ Compiler'
+ccblkfn.exe -c -file-attr ProjectName="My_CoffeePot_2016Assignment" -proc ADSP-BF533 -flags-compiler --no_wrap_diagnostics -si-revision any -g -DCORE0 -D_DEBUG -I"C:\Users\aspireE15\Documents\Fourth Year\ENCM_511\ENCM511_2016Workspace\My_CoffeePot_2016Assignment\system" -structs-do-not-overlap -no-const-strings -no-multiline -warn-protos -double-size-32 -decls-strong -cplbs -gnu-style-dependencies -MD -Mo "src/My_WaterControlCode_CPP.d" -c++ -o "src/My_WaterControlCode_CPP.doj" "../src/My_WaterControlCode_CPP.cpp"
+'Finished building: ../src/My_WaterControlCode_CPP.cpp'
+' '
+'Building target: My_CoffeePot_2016Assignment.dxe'
+'Invoking: CrossCore Blackfin Linker'
+ccblkfn.exe -proc ADSP-BF533 -si-revision any -TC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/system/startup_ldf/app.ldf -no-mem -LC:/Users/aspireE15/Documents/Fourth\ Year/ENCM_511/ENCM511_2016Workspace/My_CoffeePot_2016Assignment/Debug/system/startup_ldf C:/Analog\ Devices/CrossCore\ Embedded\ Studio\ 2.3.0/Blackfin/lib/bf532_rev_any/ADSP533_Coffeepot_GUI_Library.dlb -flags-link -MDCORE0,-MDDEBUG -add-debug-libpaths -o My_CoffeePot_2016Assignment.dxe @input-file.txt  ../system/startup_ldf/app.ldf   -flags-link -od,.\.
+'Finished building target: My_CoffeePot_2016Assignment.dxe'
+' '
+07:05:18 **** Incremental Build of configuration Debug for project My_CoffeePot_2016Assignment ****
+make all 
+make: Nothing to be done for `all'.

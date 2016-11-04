@@ -1,0 +1,47 @@
+/*
+ * My_HeaterControlCode_ASM.asm
+ *
+ *  Created on: Oct 10, 2016
+ *      Author: aspireE15
+ */
+#include <blackfin.h>
+
+	.section L1_data
+	
+#define INPAR1_R4 R4
+#define INPAR2_R5 R5	
+#define RETURN_R0 R0
+ 
+#define BASEADDR_P0 P0
+#define temp_R2 R2
+#define HEATER_REG_OFFSET		6
+#define BOOST_REG_OFFSET		8
+
+	.section program
+	.global _My_HeaterControlCode_CPP
+
+_My_HeaterControlCode_CPP:
+	[--SP] = R4;									//	COFFEEPOT_DEVICE *coffeePot_BaseAddress;
+ 	INPAR1_R4 = R0;									//		IN_PARAM1 always passed in R0
+ 	[--SP] = R5;									//	unsigned short int waterLevelRequired;
+ 	INPAR2_R5 = R1;									//		IN_PARAM2 always passed in R1
+ 	[--SP] = R6;
+ 	R6 = 80;
+	LINK 20;
+
+	.extern _CurrentTemperature_CPP;
+	CALL _CurrentTemperature_CPP;
+	CC = RETURN_R0 < R6;
+	IF CC JUMP HIGH_BOOST:
+	R2 = 2;
+HIGH_BOOST:
+	R2 = 5;
+	B[ 
+	CC = RETURN_R0 < INPAR2_R5;
+	IF !CC JUMP _My_HeaterControlCode_CPP.END:
+	R2	 
+_My_HeaterControlCode_CPP.END:
+	[SP++] = R5;
+ 	[SP++] = R4;
+	UNLINK;
+	RTS;
