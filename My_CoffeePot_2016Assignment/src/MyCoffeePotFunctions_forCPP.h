@@ -29,9 +29,14 @@ void My_DemonstrateCoffeePotsAction(bool hardwareControl,
 void My_MakeCoffeePot_ReadyForAction(COFFEEPOT_DEVICE *coffeePot_BaseAddress, char uniqueCoffeePotName[]);
 void Smith_MakeCoffeePot_ReadyForAction(COFFEEPOT_DEVICE *coffeePot_BaseAddress, char uniqueCoffeePotName[]);
 
+extern "C" void My_WaterControlCode_ASM(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned short int waterLevelRequired);
+extern "C" void My_HeaterControlCode_ASM(COFFEEPOT_DEVICE *coffeePot_BaseAddress , unsigned short int watertemperatureRequired);
+
 void Smith_WaterContolCode(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned short int waterLevelRequired);
 void My_WaterControlCode_CPP(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned short int waterLevelRequired);
-extern "C" void My_WaterControlCode_ASM(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned short int waterLevelRequired);
+extern "C" void My_WaterControlCode_CallASM(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned short int waterLevelRequired);
+extern "C" void AddWater_ASM(COFFEEPOT_DEVICE *coffeePot_BaseAddress);
+extern "C" void ReplaceEvaporatingWater_ASM(COFFEEPOT_DEVICE *coffeePot_BaseAddress);
 
 void My_SimulateOneSecondPassing_CPP(void);
 //extern "C" void My_SimulateOneSecondPassing_ASM(void);

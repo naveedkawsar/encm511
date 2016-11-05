@@ -1,5 +1,5 @@
 /*
-** ADSP-BF533 startup code generated on Oct 05, 2016 at 22:29:12.
+** ADSP-BF533 startup code generated on Nov 03, 2016 at 17:44:53.
 */
 /*
 ** Copyright (C) 2000-2016 Analog Devices Inc., All Rights Reserved.

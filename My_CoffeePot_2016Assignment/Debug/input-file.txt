@@ -1,6 +1,7 @@
 "src/My_WaterControlCode_CPP.doj"
 "src/My_HeaterControlCode_CPP.doj"
 "system/startup_ldf/app_handler_table.doj"
+"src/My_WaterControlCode_ASM.doj"
 "system/startup_ldf/app_startup.doj"
 "src/My_CoffeePot_2016main.doj"
 "system/startup_ldf/app_cplbtab.doj"

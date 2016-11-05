@@ -30,6 +30,7 @@ It provides information needed to link your code. It can be used to configure me
 							<property name="cplb_src_file" value="app_cplbtab.c"/>
 							<property name="cplb_ctrl" value="56"/>
 							<property name="cplb_obj_file" value="app_cplbtab.doj"/>
+							<property name="dcache_dcbs" value="unset"/>
 							<property name="cplb_src_alt" value="false"/>
 						</propertygroup>
 						<propertygroup name="mem_init" value="false"/>
@@ -45,8 +46,8 @@ It provides information needed to link your code. It can be used to configure me
 						<property name="init_regs" value="false"/>
 						<property name="zero_return_regs" value="false"/>
 						<property name="using_cplusplus" value="true"/>
-						<property name="use_profiling" value="false"/>
 						<property name="use_argv" value="false"/>
+						<property name="use_profiling" value="false"/>
 						<property name="use_default_handlers" value="true"/>
 						<property name="use_user_mod_crt" value="true"/>
 						<property name="use_custom_vector" value="false"/>
@@ -56,15 +57,15 @@ It provides information needed to link your code. It can be used to configure me
 						<property name="icache_config" value="disable_icache_and_enable_cplb"/>
 					</crt>
 					<ldf>
-						<propertygroup name="use_sdram" value="false">
+						<propertygroup name="use_sdram" value="true">
 							<property name="partitioned" value="default"/>
 							<property name="size" value="64"/>
-							<property name="dmc_size_0" value="64"/>
 							<property name="size_units" value="MegaBytes"/>
+							<property name="dmc_size_0" value="64"/>
 						</propertygroup>
 						<propertygroup name="system_heap" value="L1">
-							<property name="size_units" value="kB"/>
 							<property name="min_size" value="2"/>
+							<property name="size_units" value="kB"/>
 							<property name="customized" value="false"/>
 						</propertygroup>
 						<propertygroup name="system_stack" value="L1">
@@ -76,13 +77,13 @@ It provides information needed to link your code. It can be used to configure me
 						<propertygroup name="libraries" value="true">
 							<property name="use_fileio_libs" value="false"/>
 							<property name="heap_dbg_libs" value="false"/>
-							<property name="use_utility_rom" value="false"/>
 							<property name="use_eh_enabled_libs" value="false"/>
 							<property name="use_fixed_point_io_libs" value="false"/>
+							<property name="use_utility_rom" value="false"/>
 						</propertygroup>
 						<property name="use_eh" value="true"/>
-						<property name="use_full_cpplib" value="false"/>
 						<property name="user_heap_src_file" value="app_heaptab.c"/>
+						<property name="use_full_cpplib" value="false"/>
 						<property name="use_software_modules" value="false"/>
 						<property name="use_user_mod_ldf" value="true"/>
 						<property name="use_pgo_hw" value="false"/>

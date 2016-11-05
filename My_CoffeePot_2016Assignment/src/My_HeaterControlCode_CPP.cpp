@@ -7,10 +7,10 @@
 #include <MockDevices2016\CoffeePot_SimulatorFunctions2016.h>
 #include "MyCoffeePotFunctions_forCPP.h"
 
-#define TWO_HUNDRED_WATTS	200
-#define EIGHTY_DEG_C		80
-#define BOOST_FACTOR_TWO	2
-#define BOOST_FACTOR_FIVE	5
+#define TWO_HUNDRED_WATTS		200
+#define EIGHTY_DEG_C			80
+#define BOOST_FACTOR_FIFTEEN	15
+#define BOOST_FACTOR_FIVE		5
 
 void My_HeaterControlCode_CPP(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned short int waterTemperatureRequired) {
 	/*HEATER peripheral device register – 8 bits – RESET 0x00
@@ -27,9 +27,9 @@ void My_HeaterControlCode_CPP(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned 
 	unsigned char boostValue = 0;
 
 	if (currentTempC > EIGHTY_DEG_C)
-		boostValue = BOOST_FACTOR_TWO;
-	else
 		boostValue = BOOST_FACTOR_FIVE;
+	else
+		boostValue = BOOST_FACTOR_FIFTEEN;
 
 	if (currentTempC < waterTemperatureRequired) {
 		coffeePot_BaseAddress->heaterRegister = TWO_HUNDRED_WATTS;
@@ -37,8 +37,6 @@ void My_HeaterControlCode_CPP(COFFEEPOT_DEVICE *coffeePot_BaseAddress, unsigned 
 		My_SimulateOneSecondPassing_CPP();
 //		currentTempC = CurrentTemperature_CPP(coffeePot_BaseAddress);
 	}
-
-//	coffeePot_BaseAddress->heaterRegister = 0x00;
 //	coffeePot_BaseAddress->heaterBoostRegister = 0x0;
 }
 

@@ -74,12 +74,18 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="blackfin.toolchain.configuration.debug.562252267.1733276875" name="My_WaterControlCode_ASM.asm" rcbsApplicability="disable" resourcePath="src/My_WaterControlCode_ASM.asm" toolsToInvoke="blackfin.toolchain.assembler.675091235.1361335693">
-						<tool id="blackfin.toolchain.assembler.675091235.1361335693" name="CrossCore Blackfin Assembler" superClass="blackfin.toolchain.assembler.675091235"/>
+					<fileInfo id="blackfin.toolchain.configuration.debug.562252267.1221191147" name="My_WaterControlCode_ASM.asm" rcbsApplicability="disable" resourcePath="src/My_WaterControlCode_ASM.asm" toolsToInvoke="blackfin.toolchain.assembler.675091235.29069632">
+						<tool id="blackfin.toolchain.assembler.675091235.29069632" name="CrossCore Blackfin Assembler" superClass="blackfin.toolchain.assembler.675091235"/>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1582290696" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.2033042648" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1112864203" name="Resource Custom Build Step Output Type"/>
+						</tool>
 					</fileInfo>
 					<sourceEntries>
 						<entry excluding="system|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="My_WaterControlCode_ASM.asm" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="system"/>
 					</sourceEntries>
 				</configuration>
@@ -143,7 +149,7 @@
 								<option id="linker.option.srchdir.1609230065" name="Library search directories (-L):" superClass="linker.option.srchdir" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${OutDir}/system/startup_ldf&quot;"/>
 								</option>
-								<option id="linker.option.misrachecksrcfiles.1922881975" superClass="linker.option.misrachecksrcfiles" value="true" valueType="boolean"/>
+								<option id="linker.option.misrachecksrcfiles.1922881975" name="-misra-no-cross-module" superClass="linker.option.misrachecksrcfiles" value="true" valueType="boolean"/>
 								<inputType id="linker.doj.input.1484856993" name="Object Files" superClass="linker.doj.input"/>
 							</tool>
 							<tool id="blackfin.toolchain.archiver.1226057395" name="CrossCore Blackfin Archiver" superClass="blackfin.toolchain.archiver">
